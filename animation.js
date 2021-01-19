@@ -1,22 +1,22 @@
 class Animation {
   constructor(game) {
     Object.assign(this, { game });
-    this.spritesheet = ASSET_MANAGER.getAsset("./picture.png");
+    this.spritesheet = ASSET_MANAGER.getAsset("./bird.png");
 
     this.animations = [];
 
     // x, y, width, height, frameCount, frameDuration, spacing, reverse, loop
     this.animations.push(
-      new Animator(this.spritesheet, 0, 0, 320, 250, 3, 0.2, 40, false, true)
+      new Animator(this.spritesheet, 0, 0, 343, 300, 9, 0.2, 0, false, true)
     );
     this.animations.push(
-      new Animator(this.spritesheet, 0, 0, 320, 250, 3, 0.25, 40, false, true)
+      new Animator(this.spritesheet, 0, 0, 343, 300, 9, 0.25, 0, false, true)
     );
     this.animations.push(
-      new Animator(this.spritesheet, 0, 0, 320, 250, 3, 0.5, 40, false, true)
+      new Animator(this.spritesheet, 0, 0, 343, 300, 9, 0.5, 0, false, true)
     );
     this.animations.push(
-      new Animator(this.spritesheet, 0, 0, 320, 250, 3, 0.4, 40, false, true)
+      new Animator(this.spritesheet, 0, 0, 343, 300, 9, 0.4, 0, false, true)
     );
   }
 

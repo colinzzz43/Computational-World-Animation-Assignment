@@ -2,7 +2,7 @@ var gameEngine = new GameEngine();
 
 var ASSET_MANAGER = new AssetManager();
 
-ASSET_MANAGER.queueDownload("./picture.png");
+ASSET_MANAGER.queueDownload("./bird.png");
 ASSET_MANAGER.queueDownload("./grass.png");
 
 ASSET_MANAGER.downloadAll(function () {
