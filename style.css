@@ -1,0 +1,14 @@
+canvas {
+  padding: 0;
+  margin: auto;
+  display: block;
+  width: 800px;
+  background: url("./grass.png");
+}
+
+h2 {
+  font-family: monospace;
+}
+* {
+  background-color: lightgoldenrodyellow;
+}
